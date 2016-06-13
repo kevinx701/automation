@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="15" passed="15">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1868" started-at="2016-06-13T12:42:06Z" finished-at="2016-06-13T12:42:08Z">
+    <groups>
+      <group name="Functional">
+        <method signature="AppTest.test02(java.util.HashMap)[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="test02" class="com.symbio.qa.automtion.AppTest"/>
+      </group> <!-- Functional -->
+    </groups>
+    <test name="Default test" duration-ms="1868" started-at="2016-06-13T12:42:06Z" finished-at="2016-06-13T12:42:08Z">
+      <class name="com.symbio.qa.automtion.AppTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="setup" is-config="true" duration-ms="40" started-at="2016-06-13T20:42:06Z" finished-at="2016-06-13T20:42:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="test02(java.util.HashMap)[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="test02" duration-ms="20" started-at="2016-06-13T20:42:08Z" data-provider="getData" finished-at="2016-06-13T20:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ces-auth-token=${#Project#ces-auth-token}, ces-nonce=${#Project#ces-nonce}, Expected Response=Site Id is invalid, Test Comment=Invalid Site ID, errorCode=5010.0, ces-timestamp=${#Project#ces-timestamp}, Expected HTTP Status Code=401.0, type=stock, body=${#Project#BitArray2}, ces-site-id=B12, TCID=ces_assetlist_n001}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test02(java.util.HashMap)[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="test02" duration-ms="10" started-at="2016-06-13T20:42:08Z" data-provider="getData" finished-at="2016-06-13T20:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ces-auth-token=${#Project#ces-auth-token}, ces-nonce=${#Project#ces-nonce}, Expected Response=Timestamp format invalid, errorCode=5009.0, ces-timestamp=2015/06/07:00:00:00, Expected HTTP Status Code=401.0, type=custom, body=${#Project#BitArray2}, ces-site-id=${#Project#ces-site-id}, TCID=ces_assetlist_n002}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test02(java.util.HashMap)[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="test02" duration-ms="9" started-at="2016-06-13T20:42:08Z" data-provider="getData" finished-at="2016-06-13T20:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ces-auth-token=${#Project#ces-auth-token}, ces-nonce=${#Project#ces-nonce}mismatch, Expected Response=Authentication failed, Test Comment=Invalid Nonce, errorCode=5004.0, ces-timestamp=${#Project#ces-timestamp}, Expected HTTP Status Code=401.0, type=stock, body=${#Project#BitArray2}, ces-site-id=${#Project#ces-site-id}, TCID=ces_assetlist_n003}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test02(java.util.HashMap)[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="test02" duration-ms="10" started-at="2016-06-13T20:42:08Z" data-provider="getData" finished-at="2016-06-13T20:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ces-auth-token=blah, ces-nonce=assetlist_repeatednonce${#Project#repeatedNonce}, Expected Response=Authentication failed, Test Comment=Invalid Auth Token , errorCode=5004.0, ces-timestamp=${#Project#ces-timestamp}, Expected HTTP Status Code=401.0, type=custom, body=${#Project#BitArray2}, ces-site-id=${#Project#ces-site-id}, TCID=ces_assetlist_n004}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test02(java.util.HashMap)[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="test02" duration-ms="8" started-at="2016-06-13T20:42:08Z" data-provider="getData" finished-at="2016-06-13T20:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ces-auth-token=${#Project#ces-auth-token}, ces-nonce=${#Project#ces-nonce}, Expected Response=Missing Site Id Header, Test Comment=Missing Site ID, errorCode=5001.0, ces-timestamp=${#Project#ces-timestamp}, Expected HTTP Status Code=401.0, type=custom, body=${#Project#BitArray2}, ces-site-id=null, TCID=ces_assetlist_n005}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test02(java.util.HashMap)[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="test02" duration-ms="52" started-at="2016-06-13T20:42:08Z" data-provider="getData" finished-at="2016-06-13T20:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ces-auth-token=${#Project#ces-auth-token}, ces-nonce=${#Project#ces-nonce}, Expected Response=Missing Timestamp Header, Test Comment=Missing Timestamp, errorCode=5002.0, ces-timestamp=null, Expected HTTP Status Code=401.0, type=stock, body=${#Project#BitArray2}, ces-site-id=${#Project#ces-site-id}, TCID=ces_assetlist_n006}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test02(java.util.HashMap)[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="test02" duration-ms="8" started-at="2016-06-13T20:42:08Z" data-provider="getData" finished-at="2016-06-13T20:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ces-auth-token=${#Project#ces-auth-token}, ces-nonce=null, Expected Response=Missing Nonce Header, Test Comment=Missing Nonce, errorCode=5003.0, ces-timestamp=${#Project#ces-timestamp}, Expected HTTP Status Code=401.0, type=custom, body=${#Project#BitArray2}, ces-site-id=${#Project#ces-site-id}, TCID=ces_assetlist_n007}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test02(java.util.HashMap)[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="test02" duration-ms="15" started-at="2016-06-13T20:42:08Z" data-provider="getData" finished-at="2016-06-13T20:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ces-auth-token=null, ces-nonce=${#Project#ces-nonce}, Expected Response=Missing Authorization Token Header, Test Comment=Missing Auth Token, errorCode=5000.0, ces-timestamp=${#Project#ces-timestamp}, Expected HTTP Status Code=401.0, type=stock, body=${#Project#BitArray2}, ces-site-id=${#Project#ces-site-id}, TCID=ces_assetlist_n008}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test02(java.util.HashMap)[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="test02" duration-ms="23" started-at="2016-06-13T20:42:08Z" data-provider="getData" finished-at="2016-06-13T20:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ces-auth-token=${#Project#ces-auth-token}, ces-nonce=${#Project#ces-nonce}, Expected Response=Timestamp has expired, Test Comment=Expired Timestamp, errorCode=5011.0, ces-timestamp=2015-10-13T11:25:19+0100, Expected HTTP Status Code=401.0, type=stock, body=${#Project#BitArray2}, ces-site-id=${#Project#ces-site-id}, TCID=ces_assetlist_n009}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test02(java.util.HashMap)[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="test02" duration-ms="11" started-at="2016-06-13T20:42:08Z" data-provider="getData" finished-at="2016-06-13T20:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ces-auth-token=${#Project#ces-auth-token}, ces-nonce=${#Project#ces-nonce}, Expected Response=Timestamp is for a future time, Test Comment=Future Timestamp, errorCode=5012.0, ces-timestamp=2035-10-13T11:25:19+0100, Expected HTTP Status Code=401.0, type=stock, body=${#Project#BitArray2}, ces-site-id=${#Project#ces-site-id}, TCID=ces_assetlist_n010}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test02(java.util.HashMap)[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="test02" duration-ms="9" started-at="2016-06-13T20:42:08Z" data-provider="getData" finished-at="2016-06-13T20:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ces-auth-token=${=java.security.MessageDigest.getInstance("SHA-256").digest("assetlist_repeatednonce${#Project#ces-timestamp}${#Project#ces-site-id}${#Project#shared-secret}".getBytes("UTF-8")).encodeBase64().toString()}, ces-nonce=assetlist_repeatednonce${#Project#repeatedNonce}, Expected Response=Nonce is invalid, Test Comment=Repeated Nonce Value, errorCode=5013.0, ces-timestamp=${#Project#ces-timestamp}, Expected HTTP Status Code=401.0, type=stock, body=${#Project#BitArray2}, ces-site-id=${#Project#ces-site-id}, TCID=ces_assetlist_n011}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test02(java.util.HashMap)[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="test02" duration-ms="7" started-at="2016-06-13T20:42:08Z" data-provider="getData" finished-at="2016-06-13T20:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ces-auth-token=${#Project#ces-auth-token}, ces-nonce=abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxy, Expected Response=Nonce is too long, Test Comment=Nonce Too Long, errorCode=5016.0, ces-timestamp=${#Project#ces-timestamp}, Expected HTTP Status Code=401.0, type=stock, body=${#Project#BitArray2}, ces-site-id=${#Project#ces-site-id}, TCID=ces_assetlist_n012}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test02(java.util.HashMap)[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="test02" duration-ms="13" started-at="2016-06-13T20:42:08Z" data-provider="getData" finished-at="2016-06-13T20:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ces-auth-token=${#Project#ces-auth-token}, ces-nonce=${#Project#ces-nonce}, Expected Response=Invalid type for bit array, Test Comment=Invalid type value, errorCode=5015.0, ces-timestamp=${#Project#ces-timestamp}, Expected HTTP Status Code=400.0, type=stocky, body=${#Project#BitArray2}, ces-site-id=${#Project#ces-site-id}, TCID=ces_assetlist_n013}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test02(java.util.HashMap)[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="test02" duration-ms="14" started-at="2016-06-13T20:42:08Z" data-provider="getData" finished-at="2016-06-13T20:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ces-auth-token=${#Project#ces-auth-token}, ces-nonce=${#Project#ces-nonce}, Expected Response=Invalid parameters, Test Comment=Missing BitArray in body, errorCode=1006.0, ces-timestamp=${#Project#ces-timestamp}, Expected HTTP Status Code=400.0, type=stock, body=null, ces-site-id=${#Project#ces-site-id}, TCID=ces_assetlist_n014}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="test02(java.util.HashMap)[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="test02" duration-ms="17" started-at="2016-06-13T20:42:08Z" data-provider="getData" finished-at="2016-06-13T20:42:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{ces-auth-token=${#Project#ces-auth-token}, ces-nonce=${#Project#ces-nonce}, Expected Response=Not in GZIP format, Test Comment=Invalid Gzip file for bit array, Invalid encoding can't be tested as all data will result in a set of bits, making avalid bit array., errorCode=5014.0, ces-timestamp=${#Project#ces-timestamp}, Expected HTTP Status Code=400.0, type=stock, body=not a GZIP string, ces-site-id=${#Project#ces-site-id}, TCID=ces_assetlist_n015}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test02 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.symbio.qa.automtion.AppTest@48eff760]" name="tearDown" is-config="true" duration-ms="1" started-at="2016-06-13T20:42:08Z" finished-at="2016-06-13T20:42:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.symbio.qa.automtion.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
